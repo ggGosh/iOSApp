@@ -30,8 +30,9 @@ static ViewController *viewController = nil;
 }
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+//    [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [super viewDidLoad];
     self.navigationBarHidden = YES;
     self.view.backgroundColor = [UIColor whiteColor];
     viewController=self;
