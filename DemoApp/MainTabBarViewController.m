@@ -31,7 +31,7 @@
     UIViewController *mine = [[BaseViewController alloc] init];
     [self setupChildViewController:mine title:@"我的" image:@"tab_home" selectedImage:@"tab_home_pressed"];
     
-    CustomeTabBar *tabBar = [[CustomeTabBar alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    CustomeTabBar *tabBar = [[CustomeTabBar alloc] initWithFrame:CGRectMake(0, 0, 49, 49)];
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0) {
         //去掉黑线
         [tabBar setShadowImage:[UIImage imageWithColor:[UIColor redColor]]];

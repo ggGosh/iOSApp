@@ -19,12 +19,12 @@
 }
 */
 - (instancetype)init{
-     self = [super initWithFrame:CGRectMake(0, 0, ScreenWidth, 64)];
+     self = [super initWithFrame:CGRectMake(0, 0, ScreenWidth, iPhoneInfo().NavigationBarHeight)];
     if(self){
         backgroundImage=[[UIImageView alloc]initWithFrame:self.frame];
         [self addSubview:backgroundImage];
         
-        titleText=[[UILabel alloc]initWithFrame:CGRectMake(60, 20, ScreenWidth - 60 * 2, 44)];
+        titleText=[[UILabel alloc]initWithFrame:CGRectMake(60, iPhoneInfo().StatusBarHeight, ScreenWidth - 60 * 2, 44)];
         [titleText setTextAlignment:NSTextAlignmentCenter];
         [titleText setFont:[UIFont systemFontOfSize:18]];
         [titleText setTextColor:[UIColor colorFromHexCode:@"333333"]];

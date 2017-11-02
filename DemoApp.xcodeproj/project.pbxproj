@@ -105,6 +105,7 @@
 		5E575E921FAAC61500350059 /* HomeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeInfo.m; sourceTree = "<group>"; };
 		5E575E941FAAC9E900350059 /* DataTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTurn.h; sourceTree = "<group>"; };
 		5E575E951FAAC9E900350059 /* DataTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTurn.m; sourceTree = "<group>"; };
+		5E575E971FAB0E5000350059 /* InlineFunctionConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlineFunctionConstant.h; sourceTree = "<group>"; };
 		5EE95DA21FA1DFAB00FB1054 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE95DA51FA1DFAB00FB1054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EE95DA61FA1DFAB00FB1054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 		5E575E311FA9B02A00350059 /* PublicClasses */ = {
 			isa = PBXGroup;
 			children = (
+				5E575E971FAB0E5000350059 /* InlineFunctionConstant.h */,
 				5E575E581FA9BEB100350059 /* Jastor */,
 				5E575E341FA9B0C100350059 /* Ours */,
 				5E575E1C1FA99CF800350059 /* CheckLoginTool.h */,

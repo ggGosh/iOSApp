@@ -18,7 +18,7 @@
 
 - (instancetype)init{
     if (self = [super init]) {
-        contentView=[[UIView alloc]initWithFrame:CGRectMake(0, 64, ScreenWidth, ScreenHeight-64)];
+        contentView=[[UIView alloc]initWithFrame:CGRectMake(0, iPhoneInfo().NavigationBarHeight, ScreenWidth, ScreenHeight-iPhoneInfo().NavigationBarHeight)];
     }
     return self;
 }
@@ -55,7 +55,7 @@
     UIImage *backImage = [self backImage];
     
     backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    backButton.frame = CGRectMake(0, 20, BACK_BUTTON_WIDTH , 44);
+    backButton.frame = CGRectMake(0, iPhoneInfo().StatusBarHeight, BACK_BUTTON_WIDTH , 44);
     [backButton addTarget:self action:@selector(backBtnEvent:) forControlEvents:UIControlEventTouchUpInside];
     [backButton setImage:backImage forState:UIControlStateNormal];
     [backButton setImage:backImage forState:UIControlStateHighlighted];
@@ -68,7 +68,7 @@
     backButton.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 8);
     
     CGSize titleSize = VD_MULTILINE_TEXTSIZE(_titleStr, backButton.titleLabel.font, CGSizeMake(CGFLOAT_MAX, 16), backButton.titleLabel.lineBreakMode);
-    backButton.frame = CGRectMake(0, 20, BACK_BUTTON_WIDTH + titleSize.width, 44);
+    backButton.frame = CGRectMake(0, iPhoneInfo().StatusBarHeight, BACK_BUTTON_WIDTH + titleSize.width, 44);
     
     [navigtionBar addSubview:backButton];
     [self setBackTitle:_titleStr];
@@ -81,7 +81,7 @@
     [backButton setTitle:_titleStr forState:UIControlStateNormal];
     [backButton setTitle:_titleStr forState:UIControlStateHighlighted];
     CGSize titleSize = VD_MULTILINE_TEXTSIZE(_titleStr, backButton.titleLabel.font, CGSizeMake(CGFLOAT_MAX, 16), backButton.titleLabel.lineBreakMode);
-    backButton.frame = CGRectMake(0, 20, BACK_BUTTON_WIDTH + titleSize.width, 44);
+    backButton.frame = CGRectMake(0, iPhoneInfo().StatusBarHeight, BACK_BUTTON_WIDTH + titleSize.width, 44);
     
 }
 
@@ -103,7 +103,7 @@
     self.navigationController.navigationBar.hidden = YES;
     [self.view setBackgroundColor:[UIColor whiteColor]];
     if (contentView == nil) {
-        contentView=[[UIView alloc]initWithFrame:CGRectMake(0, 64, ScreenWidth, ScreenHeight-64)];
+        contentView=[[UIView alloc]initWithFrame:CGRectMake(0, iPhoneInfo().NavigationBarHeight, ScreenWidth, ScreenHeight-iPhoneInfo().NavigationBarHeight)];
     }
     [contentView setBackgroundColor:[UIColor colorFromHexCode:@"eeeeee"]];
     [self.view addSubview:contentView];
