@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view.
     
     [self addBackButton:@"返回"];
+    self.contentView.backgroundColor = [UIColor whiteColor];
     [self setNavigtionBarTransparent:NO];
 }
 
