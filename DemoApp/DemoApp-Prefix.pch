@@ -1,0 +1,27 @@
+//
+//  DemoApp-Prefix.pch
+//  DemoApp
+//
+//  Created by 谭学勇 on 2017/11/1.
+//  Copyright © 2017年 谭学勇. All rights reserved.
+//
+
+#ifndef DemoApp_Prefix_pch
+#define DemoApp_Prefix_pch
+#import "Constant.h"
+#import "UIColor+FlatUI.h"
+#import "UIView+Extension.h"
+#import "MySingleton.h"
+#import "UIApplication+Addition.h"
+#import "UIImage+Additions.h"
+#import "BaseViewController.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+
+
+#endif /* DemoApp_Prefix_pch */

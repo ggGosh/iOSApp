@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainTabBarViewController.h"
 
-@interface ViewController : UIViewController
+#define Notification_Login_Closed @"Notification_Login_Closed"
 
+@interface ViewController : UINavigationController
 
+@property (nonatomic, strong, readonly) MainTabBarViewController *mainTabBarViewController;
++(ViewController *)getMainViewController;
+- (void)showLogin:(NSInvocation *)invocation animated:(BOOL)animated;
 @end
 
