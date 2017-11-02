@@ -28,6 +28,7 @@
 		5E575E901FA9CAA400350059 /* ZLMResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E8F1FA9CAA400350059 /* ZLMResponseHandler.m */; };
 		5E575E931FAAC61500350059 /* HomeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E921FAAC61500350059 /* HomeInfo.m */; };
 		5E575E961FAAC9E900350059 /* DataTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E951FAAC9E900350059 /* DataTurn.m */; };
+		5E575E9A1FAB27CD00350059 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E991FAB27CD00350059 /* Toast.m */; };
 		5EE95DA71FA1DFAB00FB1054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE95DA61FA1DFAB00FB1054 /* AppDelegate.m */; };
 		5EE95DAA1FA1DFAB00FB1054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE95DA91FA1DFAB00FB1054 /* ViewController.m */; };
 		5EE95DAD1FA1DFAB00FB1054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE95DAB1FA1DFAB00FB1054 /* Main.storyboard */; };
@@ -106,6 +107,8 @@
 		5E575E941FAAC9E900350059 /* DataTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTurn.h; sourceTree = "<group>"; };
 		5E575E951FAAC9E900350059 /* DataTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTurn.m; sourceTree = "<group>"; };
 		5E575E971FAB0E5000350059 /* InlineFunctionConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlineFunctionConstant.h; sourceTree = "<group>"; };
+		5E575E981FAB27CD00350059 /* Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		5E575E991FAB27CD00350059 /* Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
 		5EE95DA21FA1DFAB00FB1054 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE95DA51FA1DFAB00FB1054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EE95DA61FA1DFAB00FB1054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 			children = (
 				5E575E941FAAC9E900350059 /* DataTurn.h */,
 				5E575E951FAAC9E900350059 /* DataTurn.m */,
+				5E575E981FAB27CD00350059 /* Toast.h */,
+				5E575E991FAB27CD00350059 /* Toast.m */,
 				5E575E351FA9B0F600350059 /* Categories */,
 			);
 			path = Ours;
@@ -663,6 +668,7 @@
 				5E575E901FA9CAA400350059 /* ZLMResponseHandler.m in Sources */,
 				5EE95DA71FA1DFAB00FB1054 /* AppDelegate.m in Sources */,
 				5EE95DDC1FA2DECC00FB1054 /* CustomeTabBar.m in Sources */,
+				5E575E9A1FAB27CD00350059 /* Toast.m in Sources */,
 				5E575E111FA9999700350059 /* MySingleton.m in Sources */,
 				5E575E201FA99E6D00350059 /* UIImage+Additions.m in Sources */,
 			);
