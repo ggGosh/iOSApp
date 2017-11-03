@@ -29,6 +29,8 @@
 		5E575E931FAAC61500350059 /* HomeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E921FAAC61500350059 /* HomeInfo.m */; };
 		5E575E961FAAC9E900350059 /* DataTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E951FAAC9E900350059 /* DataTurn.m */; };
 		5E575E9A1FAB27CD00350059 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E991FAB27CD00350059 /* Toast.m */; };
+		5E575E9D1FABF83200350059 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E9C1FABF83200350059 /* NSMutableDictionary+Safe.m */; };
+		5E575EA01FABF9AB00350059 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E575E9F1FABF9AB00350059 /* NSArray+Safe.m */; };
 		5EE95DA71FA1DFAB00FB1054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE95DA61FA1DFAB00FB1054 /* AppDelegate.m */; };
 		5EE95DAA1FA1DFAB00FB1054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE95DA91FA1DFAB00FB1054 /* ViewController.m */; };
 		5EE95DAD1FA1DFAB00FB1054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE95DAB1FA1DFAB00FB1054 /* Main.storyboard */; };
@@ -109,6 +111,10 @@
 		5E575E971FAB0E5000350059 /* InlineFunctionConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlineFunctionConstant.h; sourceTree = "<group>"; };
 		5E575E981FAB27CD00350059 /* Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
 		5E575E991FAB27CD00350059 /* Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		5E575E9B1FABF83200350059 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		5E575E9C1FABF83200350059 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		5E575E9E1FABF9AB00350059 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		5E575E9F1FABF9AB00350059 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 		5EE95DA21FA1DFAB00FB1054 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE95DA51FA1DFAB00FB1054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EE95DA61FA1DFAB00FB1054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -242,6 +248,10 @@
 				5E575E1F1FA99E6C00350059 /* UIImage+Additions.m */,
 				5E575E221FA99E9800350059 /* UIApplication+Addition.h */,
 				5E575E211FA99E9800350059 /* UIApplication+Addition.m */,
+				5E575E9B1FABF83200350059 /* NSMutableDictionary+Safe.h */,
+				5E575E9C1FABF83200350059 /* NSMutableDictionary+Safe.m */,
+				5E575E9E1FABF9AB00350059 /* NSArray+Safe.h */,
+				5E575E9F1FABF9AB00350059 /* NSArray+Safe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -652,6 +662,7 @@
 				5E575E0C1FA9946800350059 /* UIColor+FlatUI.m in Sources */,
 				5EE95DDF1FA2E20C00FB1054 /* UIView+Extension.m in Sources */,
 				5E575E871FA9C4A200350059 /* ZLMSession.m in Sources */,
+				5E575EA01FABF9AB00350059 /* NSArray+Safe.m in Sources */,
 				5E575E091FA993FD00350059 /* HJNavigtionBar.m in Sources */,
 				5E575E061FA9936200350059 /* BaseViewController.m in Sources */,
 				5E575E1D1FA99CF800350059 /* CheckLoginTool.m in Sources */,
@@ -666,6 +677,7 @@
 				5E575E141FA99A8C00350059 /* LoginViewController.m in Sources */,
 				5E575E5D1FA9BEB100350059 /* Jastor.m in Sources */,
 				5E575E901FA9CAA400350059 /* ZLMResponseHandler.m in Sources */,
+				5E575E9D1FABF83200350059 /* NSMutableDictionary+Safe.m in Sources */,
 				5EE95DA71FA1DFAB00FB1054 /* AppDelegate.m in Sources */,
 				5EE95DDC1FA2DECC00FB1054 /* CustomeTabBar.m in Sources */,
 				5E575E9A1FAB27CD00350059 /* Toast.m in Sources */,
